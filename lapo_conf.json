@@ -1,0 +1,1 @@
+{"main": "src/main.jpp", "include": "src/mod", "temp_folder": "target", "output_elf": "main.elf"}

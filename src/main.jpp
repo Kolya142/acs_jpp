@@ -1,0 +1,18 @@
+#!use:io,std
+#!mod:oacs.hpp
+
+str text = "hello, world, and, jpp"
+
+// init spliter
+acs::Spliter spltr = acs::Spliter(text)
+
+// example split:
+pf("spliting %s for ', '\n", text)
+str a = spltr.split_str(", ").value
+pf("first: %s\n", a)
+
+free(a)
+
+// output:
+// spliting hello, world, and, jpp for ', '
+// first: hello
