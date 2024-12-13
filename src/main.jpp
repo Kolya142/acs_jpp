@@ -1,6 +1,7 @@
 #!use:io,std
 #!mod:oacs.hpp
 
+
 str text = "hello, world, and, jpp"
 
 // init spliter
